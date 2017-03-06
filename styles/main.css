@@ -1,9 +1,21 @@
-.clearfix{
-	clear: both;
-	content: "";
-	display: block;
-
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
 
 
 .row_one{
@@ -175,15 +187,6 @@
 }
 
 
-.row_four{
-	min-height: 280px;
-	width: 100%;
-}
-
-.row_four_col_left{
-	width: 25%;
-	box-sizing: border-box;
-}
 
 .articles_section_title{
 	font-family: "Raleway", sans-serif;
@@ -227,7 +230,7 @@
 }
 
 
-.media_links{
+.media_links {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -237,7 +240,6 @@
 	padding-bottom: none;
 	padding-top: none;
 	margin: 0 auto;
-
 }
 
 .media_link{
