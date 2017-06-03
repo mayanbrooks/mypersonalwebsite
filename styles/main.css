@@ -8,10 +8,6 @@
     clear: both;
 }
 
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
 .cf {
     *zoom: 1;
 }
@@ -30,7 +26,7 @@
 	background-size: cover;
 	opacity: 0.83;
 	min-height: 400px;
-	
+
 }
 
 .nav_links{
@@ -40,7 +36,7 @@
 	width: 100%;
 	background-color: black;
 	min-height: 20px;
-	
+
 }
 
 .nav_link{
@@ -141,7 +137,7 @@
 	font-size: 26px;
 	padding-top: 20px;
 	text-align: center;
-	/*color: #33001a;  */ 
+	/*color: #33001a;  */
 	color: orange;
 }
 
@@ -150,8 +146,8 @@
 	font-size: 26px;
 	padding-top: 20px;
 	text-align: center;
-	/*color: #33001a; */  
-	color: orange;   
+	/*color: #33001a; */
+	color: orange;
 }
 
 .skills_image_wrapper{
@@ -193,7 +189,7 @@
 	font-size: 26px;
 	padding-top: 20px;
 	text-align: center;
-	color: orange;   
+	color: orange;
 
 }
 
@@ -225,8 +221,8 @@
 	font-size: 18px;
 	padding-top: 20px;
 	text-align: center;
-	/*color: #33001a; */  
-	color: orange;   
+	/*color: #33001a; */
+	color: orange;
 }
 
 
@@ -256,5 +252,3 @@
 	padding-top: 20px;
 	text-align: center;
 }
-
-
