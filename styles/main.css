@@ -252,3 +252,21 @@
 	padding-top: 20px;
 	text-align: center;
 }
+
+.resume-header{
+height: 60px;
+width: 100%;
+}
+
+.resume-title{
+  padding-top: 50px;
+}
+
+.resume-frame{
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
