@@ -131,6 +131,24 @@
 
 }
 
+@media only screen and (max-width: 600px) {
+  .row_three_col_left{
+    width: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .row_three_col_right{
+    width: 100%;
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+
+
 
 .skills_section_title{
 	font-family: "Raleway", sans-serif;
