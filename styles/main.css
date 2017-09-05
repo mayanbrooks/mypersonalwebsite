@@ -192,6 +192,10 @@
 
 }
 
+.card-image{
+  min-height: 125px;
+}
+
 
 .skills_image{
 	float: left;
