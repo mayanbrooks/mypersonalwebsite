@@ -113,6 +113,16 @@
 	line-height: 1.7;
 }
 
+.skillshare_image_center{
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.skillshare_image{
+  width: 60%;
+}
+
 .row_three{
 	min-height: 400px;
 	width: 100%;
@@ -243,6 +253,7 @@
 	font-size: 18px;
 	padding-top: 20px;
 	text-align: center;
+  margin: 0 auto;
 	/*color: #33001a; */
 	color: orange;
 }
