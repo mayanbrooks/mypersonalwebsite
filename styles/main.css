@@ -21,10 +21,10 @@
 
 
 .hero_image{
-	background-image: url("../assets/brooklynbridgeheroimage.png");
-	background-repeat: no-repeat;
+	background-image: url("../assets/pexels-photo-733857.jpeg");
+  background-repeat: no-repeat;
 	background-size: cover;
-	opacity: 0.83;
+	opacity: 0.78;
 	min-height: 400px;
 
 }
@@ -45,12 +45,12 @@
 	color: white;
 }
 
-.circ_wrapper{
+.img_wrapper{
 	position: relative;
 	width: 100%;
 }
 
-.circ_position{
+.img_position{
 	position: absolute;
 	top: 0px;
     left: 50%;
@@ -58,7 +58,7 @@
     margin: 0 auto;
 
 }
-.circ_image{
+.square_image{
 	width: auto;
   	height: 100%;
   	margin-left: 0px;
@@ -67,11 +67,14 @@
 }
 
 
-.circ_sizing{
-	width: 275px;
-  	height: 275px;
+.square_sizing{
+	width: 350px;
+  	height: 350px;
+    /* margin-top: 350px;
+    height: 450px; */ */
   	overflow: hidden;
- 	border-radius: 50%;
+    border: 2px solid white;
+ 	/* border-radius: 50%; */
 }
 
 
@@ -86,7 +89,9 @@
   justify-content: center;
 }
 
-
+h1{
+  margin-top: 100px;
+}
 .spacer{
   margin-top: 40px;
 }
