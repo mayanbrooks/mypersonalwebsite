@@ -105,6 +105,12 @@ h1{
 
 }
 
+@media screen and (max-width: 700px){
+  .row_two_title{
+    font-size: 32px;
+  }
+}
+
 .row_two_sub_title{
 	font-family: "Raleway", sans-serif;
 	text-align: center;
@@ -125,7 +131,8 @@ h1{
 
 @media screen and (max-width: 700px){
   .row_two_text{
-    font-size: 10px;
+    font-size: 14px;
+    width: 80%;
   }
 }
 
@@ -154,7 +161,11 @@ h1{
 	/*color: #33001a; */
 	color: orange;
 }
-
+@media screen and (max-width: 700px){
+  .project_section_title{
+    font-size: 22px;
+  }
+}
 
 .card_wrapper{
 	display: flex;
@@ -170,15 +181,11 @@ h1{
 
 .card{
 	width: 210px;
-
 }
 
 .card-image{
   min-height: 125px;
 }
-
-
-
 
 .articles_section_title{
 	font-family: "Raleway", sans-serif;
